@@ -5,22 +5,26 @@
 public class Vendor
 {
     private int stock;
-    private int 
+    private int price;
+    private int deposit;
+    private int change;
+
           /**
            * Constructs a Vendor
            * @param price the price of a single item in cents (int)
            * @param stock number of items to place in stock (int)
            */
-          ... Vendor ...
-    {
-    ...
+    public void Vendor(int p, int s){
+        int price = p;
+        int stock = s;
+
     }
 
     /**
      * Sets the quantity of items in stock.
      * @param qty number of items to place in stock (int)
      */
-  public void setStock(){
+  public void setStock(int quantity){
 
   }
 
