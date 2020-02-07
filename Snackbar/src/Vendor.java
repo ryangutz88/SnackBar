@@ -1,3 +1,4 @@
+
 /**
  * This class implements a vendor that sells one kind
  * of items. A vendor carries out sales transactions.
@@ -8,15 +9,18 @@ public class Vendor
     private int price;
     private int deposit;
     private int change;
+    private static double totalSales = 0;
 
           /**
            * Constructs a Vendor
            * @param price the price of a single item in cents (int)
            * @param stock number of items to place in stock (int)
            */
-    public void Vendor(int p, int s){
-        int price = p;
-        int stock = s;
+    public  Vendor(int p, int s){
+         price = p;
+         stock = s;
+         deposit = 0;
+         change = 0;
 
     }
 
