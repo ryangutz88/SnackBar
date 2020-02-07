@@ -1,4 +1,4 @@
-
+package com.company;
 /**
  * This class implements a vendor that sells one kind
  * of items. A vendor carries out sales transactions.
@@ -29,7 +29,7 @@ public class Vendor
      * @param qty number of items to place in stock (int)
      */
   public void setStock(int quantity){
-
+        stock =
   }
 
     /**
@@ -69,9 +69,10 @@ public class Vendor
      * change) and returns false.
      * @return true for a successful sale, false otherwise (boolean)
      */
-  ... makeSale ...
-    {
-    ...
+    public boolean makeSale() {
+    if(){
+
+    }
     }
 
     /**
