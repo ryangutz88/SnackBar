@@ -29,16 +29,16 @@ public class Vendor
      * @param qty number of items to place in stock (int)
      */
   public void setStock(int quantity){
-        stock =
+
   }
 
     /**
      * Returns the number of items currently in stock.
      * @return number of items currently in stock (int)
      */
-  ... getStock ...
+    public int getStock()
     {
-    ...
+    stock = 
     }
 
     /**
