@@ -4,9 +4,8 @@
  */
 public class Vendor
 {
-    // Fields:
-  ...
-
+    private int stock;
+    private int 
           /**
            * Constructs a Vendor
            * @param price the price of a single item in cents (int)
@@ -21,10 +20,9 @@ public class Vendor
      * Sets the quantity of items in stock.
      * @param qty number of items to place in stock (int)
      */
-  ... setStock ...
-    {
-    ...
-    }
+  public void setStock(){
+
+  }
 
     /**
      * Returns the number of items currently in stock.
